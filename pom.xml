@@ -45,4 +45,17 @@
 </pluginManagement>
 <!-- To use the plugin goals in your POM or parent POM -->
 </build>
+	<distributionManagement>
+	    <repository>
+	        <id>RestAssured</id>
+	        <name>My GitHub</name>
+	        <url>https://http://34.125.120.175:8080/job/package/ws/target/restassured-rest-0.0.1-SNAPSHOT.jar</url>
+	    </repository>
+	    <snapshotRepository>
+	        <id>rest assurred deploy</id>
+	        <name>My GitHub</name>
+	        <url>https://http://34.125.120.175:8080/job/package/ws/target/deploy</url>
+	    </snapshotRepository>
+	</distributionManagement>
+
 </project>
